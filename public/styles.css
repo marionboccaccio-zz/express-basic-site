@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header_main {
+  background-color: black;
+  height: 8vh;
+}
+
+#nav_main {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link {
+  background-color: black;
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 1.5em;
+  padding-right: 20px;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.homecontainer {
+  background: url(nunchihome.jpg) no-repeat center center fixed;
+  margin: 0;
+  max-height: 97vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.textBox {
+  padding-left: 470px;
+  color: antiquewhite;
+  padding-top: 120px;
+}
+
+.enter {
+  margin-top: 320px;
+  margin-left: 80px;
+  padding: 0px;
+}
+
+.happiness {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.silence {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+#footer_main {
+  background-color: black;
+  color: white;
+  height: 5vh;
+}
+
+.example_b {
+  color: rgb(255, 165, 0) !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffe4c4;
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.example_b:hover {
+  text-shadow: 0px 0px 6px rgb(255, 127, 80);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+}
+
+.button_cont {
+  max-width: 50px;
+}
+
+.aboutContainer {
+  height: 89vh;
+  background-size: cover;
+  background: linear-gradient(rgba(255, 138, 0, 0.2), #fff);
+  display: grid;
+  grid-template-columns: 10px 25% auto 25% 10px;
+  grid-template-rows: 17px auto 30px;
+}
+
+.textContainer {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  text-align: justify;
+}
+
+.textContainer p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.imageContainer {
+  height: 100%;
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+.womanImg {
+  padding: 10px;
+  margin-top: 350px;
+  height: auto;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.galleryContainer {
+  background-size: cover;
+  height: 89vh;
+  background: linear-gradient(rgba(255, 138, 0, 0.2), #fff);
+  display: grid;
+  grid-template-columns: 40% repeat(2, 30%);
+  grid-template-rows: 30px repeat(3, 30%) 31px;
+}
+
+#cene {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  height: 182px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 30px;
+  margin-left: 110px;
+}
+
+#hopper {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  height: 182px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+#renoir {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  height: 182px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 30px;
+  margin-left: 110px;
+}
+
+#hockney {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  height: 182px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+#scenefamille {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  height: 182px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 30px;
+  margin-left: 110px;
+}
+
+#trac {
+  grid-column-start: 3;
+  grid-row-start: 4;
+  height: 182px;
+  width: 250px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+#foretaste {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#paraphGallery {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  padding-left: 50px;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: center;
+}
+
+#what {
+  padding-top: 30px;
+}
+
+#who {
+  padding-top: 30px;
+}
+
+#offer {
+  padding-top: 30px;
+}
